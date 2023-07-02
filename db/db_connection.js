@@ -3,7 +3,7 @@ const mongoose=require('mongoose');
 
 // Define db_url:
 // const db_url='mongodb://127.0.0.1:27017/foodList';
-const db_url="mongodb+srv://anjan:a123@food-rest-api.inuqoav.mongodb.net/foodList";
+const db_url="";
 
 // Now connecting mongodb data base :
 const con=mongoose.connect(db_url)
