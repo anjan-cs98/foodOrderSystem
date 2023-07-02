@@ -1,4 +1,4 @@
-// Loading jwt :
+// Loading  jwt  for Authentication :
 const jtw=require('jsonwebtoken');
 
 let checkAuth=((req,res,next)=>{
